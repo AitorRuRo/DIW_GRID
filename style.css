@@ -1,0 +1,311 @@
+.el {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+ }
+
+.uno, .seis{
+    background-color: #212121;
+}
+.dos, .siete{
+    background-color: #278c7a;
+}
+.tres, .ocho{
+    background-color: #C8E6CA;
+}
+.quatro, .nueve{
+    background-color: #0989A6;
+}
+.cinco{
+    background-color: #94A604;
+}
+.columnas{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.secondColumnas{
+    display: grid;
+    grid-template-columns: 250px 1fr 2fr 20%;
+}
+.tercer{
+    display: grid;
+    grid-template-columns: 250px 1fr 2fr 20%;
+}
+.tercer div{
+    display: flex;
+    justify-content: center;
+}
+.quartCollumnes{
+    display: grid;
+    grid-template-columns: 250px 1fr 2fr 20%;
+    gap: 20px 10px;
+}
+.quartCollumnes div{
+    display: flex;
+    justify-content: center;
+}
+.cinquenaColumnes{
+    display: grid;
+    grid-template-columns: 250px 1fr 2fr 20%;
+    gap: 20px 10px;
+    grid-template-rows: auto 300px auto;
+}
+.cinquenaColumnes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.concoUno{
+    display: grid;
+    grid-template-columns: 250px 1fr 2fr 20%;
+    gap: 20px 10px;
+    grid-template-rows: auto 30% auto;
+}
+.cincoUno div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.concoDos{
+    display: grid;
+    grid-template-columns: 250px 1fr 2fr 20%;
+    gap: 20px 10px;
+    grid-template-rows: auto 2fr auto;
+}
+.cincoDos div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seisColumnes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 10px;
+    grid-template-rows: auto 300px auto;
+}
+.seisColumnes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seisColumnes div.uno{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.sieteColumnes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 10px;
+    grid-template-rows: auto 300px auto;
+}
+.sieteColumnes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sieteColumnes div.uno{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.sieteColumnes div.dos{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.ochoColumnes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 10px;
+}
+.ochoColumnes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ochoColumnes div.uno{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.ochoColumnes div.dos{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.nueveColumnes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 10px;
+}
+.nueveColumnes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nueveColumnes div.uno{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.nueveColumnes div.dos{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.nueveColumnes div.nueve{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.nueveUnoColumnes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 10px;
+}
+.nueveUnoColumnes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nueveUnoColumnes div.uno{
+    grid-column: span 2; 
+}
+.nueveUnoColumnes div.dos{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.nueveUnoColumnes div.nueve{
+    grid-column: span 4;
+}
+.diezColumnes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 10px;
+}
+.diezColumnes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.diezColumnes div.uno{
+    grid-column: span 2; 
+}
+.diezColumnes div.dos{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.diezColumnes div.tres{
+    grid-row: span 3;
+}
+.diezColumnes div.nueve{
+    grid-column: span 4;
+}
+.onceColumnes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 10px;
+}
+.onceColumnes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.onceColumnes div.uno{
+    grid-column: span 2; 
+}
+.onceColumnes div.dos{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.onceColumnes div.tres{
+    grid-row: span 3;
+}
+.onceColumnes div.siete{
+    grid-row: span 2;
+}
+.onceColumnes div.ocho{
+    grid-column: span 2;
+}
+.onceColumnes div.nueve{
+    grid-column: span 4;
+}
+.doceColumnes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 10px;
+}
+.doceColumnes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doceColumnes div.uno{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.doceColumnes div.dos{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.doceColumnes div.tres{
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+.doceColumnes div.siete{
+    grid-column-start: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.doceColumnes div.ocho{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.doceColumnes div.nueve{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.treceCoumnes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 10px;
+    grid-template-areas: 
+        "uno uno dos dos"
+        "tres quatro dos dos"
+        "tres cinco seis siete"
+        "tres ocho ocho siete"
+        "nueve nueve nueve nueve"
+    ;
+}
+.treceCoumnes div.uno{
+    grid-area: uno;
+}
+.treceCoumnes div.dos{
+    grid-area: dos;
+}
+.treceCoumnes div.tres{
+    grid-area: tres;
+}
+.treceCoumnes div.quatro{
+    grid-area: quatro;
+}
+.treceCoumnes div.cinco{
+    grid-area: cinco;
+}
+.treceCoumnes div.seis{
+    grid-area: seis;
+}
+.treceCoumnes div.siete{
+    grid-area: siete;
+}
+.treceCoumnes div.ocho{
+    grid-area: ocho;
+}
+.treceCoumnes div.nueve{
+    grid-area: nueve;
+}
